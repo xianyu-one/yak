@@ -1,6 +1,6 @@
 FROM alpine:3
 
-COPY shell /shell
+COPY ./shell /shell
 
 RUN apk update && apk add \
     tree \
