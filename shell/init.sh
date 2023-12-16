@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 wget https://github.com/yaklang/yaklang/releases/latest/download/yak_linux_amd64
 
