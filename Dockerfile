@@ -9,7 +9,8 @@ RUN apk update && apk add \
     libpcap \
     sudo && \
     chmod +x /shell/*.sh && \
-    /shell/init.sh
+    /shell/init.sh && \
+    rm -rf yak_linux_amd64
 
 EXPOSE 28087
 
